@@ -27,6 +27,7 @@ win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST,0,0,0,0,win32con.SWP_NOMOVE | 
 
 match_counter = 1
 time_counter = 0
+print("Hello")
 
 while(1):
 
