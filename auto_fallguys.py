@@ -27,8 +27,6 @@ win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST,0,0,0,0,win32con.SWP_NOMOVE | 
 
 match_counter = 1
 time_counter = 0
-print("Hello")
-print("HELLO")
 
 while(1):
 
@@ -68,3 +66,5 @@ while(1):
                 break          
 
     time.sleep(0.1)
+
+print("welcome fallguys")
