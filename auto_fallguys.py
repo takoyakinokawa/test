@@ -3,7 +3,7 @@ import pyautogui as pgui
 import time
 import win32gui
 import win32con
-
+a
 path_picdir = "auto_fallguys\pic\\"
 
 # Image check
