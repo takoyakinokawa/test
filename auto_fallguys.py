@@ -10,7 +10,7 @@ path_picdir = "auto_fallguys\pic\\"
 def ky(chk_imgpath, sKey, cd = 0.7):
     if pgui.locateOnScreen(chk_imgpath, confidence = cd) is not None:
         k(sKey)
-aaa
+
 # Key input
 def k(sKey):
     win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST,0,0,0,0,win32con.SWP_NOMOVE | win32con.SWP_NOSIZE)
